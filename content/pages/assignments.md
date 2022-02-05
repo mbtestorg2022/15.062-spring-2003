@@ -25,27 +25,193 @@ A new title, "The Art History of Florence", is ready for release. CBC has sent a
 
 ### Table 1: List of Variables in CBC\_4000.xls
 
-| Variable Names | Descriptions |
-| --- | --- |
-| Seq# | Sequence number in the partition |
-| ID# | Identification number in the full (unpartitioned) market test data set |
-| Gender | O=Male, 1=Female |
-| M | Monetary- Total money spent on books |
-| R | Recency- Months since last purchase |
-| F | Frequency - Total number of purchases |
-| FirstPurch | Months since first purchase |
-| ChildBks | Number of purchases from the category: Child books |
-| YouthBks | Number of purchases from the category: Youth books |
-| CookBks | Number of purchases from the category: Cookbooks |
-| DoItYBks | Number of purchases from the category Do It Yourself books |
-| RefBks | Number of purchases from the category: Reference books (Atlases, Encyclopedias, Dictionaries) |
-| ArtBks | Number of purchases from the category: Art books |
-| GeoBks | Number of purchases from the category: Geography books |
-| ItalCook | Number of purchases of book title: "Secrets of Italian Cooking." |
-| ItalAtlas | Number of purchases of book title: "Historical Atlas of Italy." |
-| ItalArt | Number of purchases of book title: "Italian Art." |
-| Florence | \=1 "The Art History of Florence." was bought,  {{< br >}}\=0 if not |
-| Related purchase | Number of related books purchased 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+Variable Names
+{{< thclose >}}
+{{< thopen >}}
+Descriptions
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Seq#
+{{< tdclose >}}
+{{< tdopen >}}
+Sequence number in the partition
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ID#
+{{< tdclose >}}
+{{< tdopen >}}
+Identification number in the full (unpartitioned) market test data set
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Gender
+{{< tdclose >}}
+{{< tdopen >}}
+O=Male, 1=Female
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+M
+{{< tdclose >}}
+{{< tdopen >}}
+Monetary- Total money spent on books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R
+{{< tdclose >}}
+{{< tdopen >}}
+Recency- Months since last purchase
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+F
+{{< tdclose >}}
+{{< tdopen >}}
+Frequency - Total number of purchases
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+FirstPurch
+{{< tdclose >}}
+{{< tdopen >}}
+Months since first purchase
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ChildBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Child books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+YouthBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Youth books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+CookBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Cookbooks
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DoItYBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category Do It Yourself books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+RefBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Reference books (Atlases, Encyclopedias, Dictionaries)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ArtBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Art books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+GeoBks
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases from the category: Geography books
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ItalCook
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases of book title: "Secrets of Italian Cooking."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ItalAtlas
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases of book title: "Historical Atlas of Italy."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ItalArt
+{{< tdclose >}}
+{{< tdopen >}}
+Number of purchases of book title: "Italian Art."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Florence
+{{< tdclose >}}
+{{< tdopen >}}
+\=1 "The Art History of Florence." was bought,  
+\=0 if not
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Related purchase
+{{< tdclose >}}
+{{< tdopen >}}
+Number of related books purchased
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Problem 2: The German Credit Case
 
